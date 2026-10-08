@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+body {
+    margin: 0;
+    background-color: #294d86;
+    color: #333333;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+header {
+    height: 768px;
+    padding: 25px 30px;
+    background-color: #294d86;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    width: 110px;
+}
+
+.nav-primary {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.cta-btn {
+    padding: 8px 12px;
+    background-color: #40bce6;
+    border-radius: 5px;
+}
+
+.header-title {
+    margin-top: 130px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.header-subtitle {
+    color: #5c8fb7;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#button-container {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.header-btn {
+    color: white;
+    text-decoration: none;
+}
+
+.header-services {
+    display: flex;
+    width: 900px;
+    margin: 90px auto;
+    padding: 0;
+    list-style: none;
+}
+
+.service {
+    width: 33.33%;
+    padding: 20px;
+}
+
+.service:hover {
+    background-color: #40bce6;
+}
+
+.service-title {
+    color: white;
+    font-size: 16px;
+}
+
+.service-intro {
+    color: white;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.service-link {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
